@@ -65,24 +65,6 @@ def previous():
     songbox.selection_set(nextsong,last=None)
     
 
-#create global pause variable
-'''global paused
-paused=False'''
-
-"""#pause and unpause the song
-def pause(is_paused):
-    global paused
-    paused=is_paused
-
-    if paused:
-        #unpause
-        pygame.mixer.music.unpause()
-        pause=False
-    else:
-        #pause
-        pygame.mixer.music.pause()
-        pause=True"""
-
 #create menu
 mymenu=Menu(root)
 root.configure(menu=mymenu)
